@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shua21.attendancemanager" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AttendActivity"
+            android:label="@string/title_activity_attend" >
+        </activity>
+        <activity
+            android:name=".managerActivity"
+            android:label="@string/title_activity_manager" >
+        </activity>
+        <activity
+            android:name=".studentActivity"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name=".studentAddActivity"
+            android:label="@string/title_activity_student_add" >
+        </activity>
+        <activity
+            android:name=".AttendLogActivity"
+            android:label="@string/title_activity_attend_log" >
+        </activity>
+        <activity
+            android:name=".AttendLogDetailActivity"
+            android:label="@string/title_activity_attend_log_detail" >
+        </activity>
+    </application>
+
+</manifest>

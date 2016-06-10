@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="291dp"
+        android:layout_height="388dp">
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="113dp"
+            android:id="@+id/imgselect_img1"
+            android:background="@drawable/classimg1" />
+
+        <ImageButton
+            android:layout_width="87dp"
+            android:layout_height="115dp"
+            android:id="@+id/imgselect_img2"
+            android:background="@drawable/classimg2"
+            android:layout_gravity="center_horizontal|top" />
+
+        <ImageButton
+            android:layout_width="91dp"
+            android:layout_height="121dp"
+            android:id="@+id/imgselect_img3"
+            android:background="@drawable/classimg3"
+            android:layout_gravity="right|top" />
+
+        <ImageButton
+            android:layout_width="91dp"
+            android:layout_height="121dp"
+            android:id="@+id/imgselect_img4"
+            android:background="@drawable/classimg4"
+            android:layout_gravity="left|center_vertical" />
+
+        <ImageButton
+            android:layout_width="91dp"
+            android:layout_height="121dp"
+            android:id="@+id/imgselect_img5"
+            android:background="@drawable/classimg5"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:id="@+id/imgselect_button" />
+
+</LinearLayout>

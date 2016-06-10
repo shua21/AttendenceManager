@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/clist_imageview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/abc_btn_radio_to_on_mtrl_015" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/clist_textview_classname"
+        android:layout_alignBottom="@+id/clist_imageview"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/clist_imageview"
+        android:layout_toRightOf="@+id/clist_imageview"
+        android:layout_toEndOf="@+id/clist_imageview"
+        android:textSize="40dp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

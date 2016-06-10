@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:text="수업 출결 관리 시스템 "
+        android:id="@+id/textView"
+        android:textSize="34dp"
+        android:layout_weight="0.83"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical">
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="67dp"
+        android:text="출결기록"
+        android:id="@+id/main_button_attendLog"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="20dp"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="67dp"
+        android:text="수업관리"
+        android:id="@+id/main_button_manager"
+        android:layout_gravity="left|bottom"
+        android:layout_margin="20dp"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@drawable/mainpic" />
+
+</FrameLayout>

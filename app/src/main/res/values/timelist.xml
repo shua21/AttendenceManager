@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources><string-array name="timelist">
+    <item>1교시</item>
+    <item>2교시</item>
+    <item>3교시</item>
+    <item>4교시</item>
+</string-array></resources>

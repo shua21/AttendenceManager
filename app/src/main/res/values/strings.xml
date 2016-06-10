@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AttendanceManager</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_attend">AttendActivity</string>
+    <string name="title_activity_manager">managerActivity</string>
+    <string name="title_activity_student">studentActivity</string>
+    <string name="title_activity_student_add">studentAddActivity</string>
+    <string name="title_activity_attend_log">AttendLogActivity</string>
+    <string name="title_activity_attend_log_detail">AttendLogDetailActivity</string>
+</resources>

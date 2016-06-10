@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shua21.attendancemanager.AttendActivity"
+    >
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/attend_listview"
+        android:layout_below="@+id/attend_button_reset"
+        android:layout_alignRight="@+id/attend_Textview_timenum"
+        android:layout_alignEnd="@+id/attend_Textview_timenum"
+        android:layout_above="@+id/attend_textview_status" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="블루투스 새로고침"
+        android:id="@+id/attend_button_resfresh"
+        android:layout_below="@+id/attend_textview_date"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0교시"
+        android:id="@+id/attend_Textview_timenum"
+        android:gravity="center|center_vertical"
+        android:layout_alignParentTop="true"
+        android:textSize="40dp"
+        android:layout_alignRight="@+id/attend_button_resfresh"
+        android:layout_alignEnd="@+id/attend_button_resfresh"
+        android:layout_above="@+id/attend_button_resfresh" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="리셋"
+        android:id="@+id/attend_button_reset"
+        android:layout_alignTop="@+id/attend_button_resfresh"
+        android:layout_toLeftOf="@+id/attend_button_resfresh"
+        android:layout_toStartOf="@+id/attend_button_resfresh" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2015-11-13"
+        android:id="@+id/attend_textview_date"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/attend_Textview_timenum"
+        android:layout_toStartOf="@+id/attend_Textview_timenum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="대기중"
+        android:id="@+id/attend_textview_status"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/attend_listview"
+        android:layout_alignEnd="@+id/attend_listview"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:gravity="center" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="지각으로"
+        android:id="@+id/attend_checkBox"
+        android:checked="false"
+        android:layout_above="@+id/attend_listview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
